@@ -6,6 +6,9 @@
 
 Ein professioneller KI-Bildgenerator für Endo Health Blogbeiträge. Diese App ermöglicht die Erstellung konsistenter, markengerechter Header-Bilder mittels verschiedener KI-Modelle.
 
+**🚀 [Live Demo ansehen](https://endo-health-ai-image-generator.vercel.app/)**
+
+
 ## ✨ Features
 
 - **Multi-Provider Support**: Wähle zwischen Gemini (Google), Pollinations AI und Hugging Face (FLUX).
@@ -52,6 +55,9 @@ Dieses Projekt ist für [Vercel](https://vercel.com) optimiert.
     - `HUGGINGFACE_API_KEY`
     - `POLLINATIONS_API_KEY`
 4.  Klicke auf **Deploy**.
+
+Die App ist nun unter **[https://endo-health-ai-image-generator.vercel.app/](https://endo-health-ai-image-generator.vercel.app/)** erreichbar.
+
 
 ## 📖 Dokumentation
 Weitere Details zum internen Workflow findest du in der [WORKFLOW.md](WORKFLOW.md).
