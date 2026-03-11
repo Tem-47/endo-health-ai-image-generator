@@ -2,19 +2,57 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Endo Health AI Image Generator
 
-This contains everything you need to run your app locally.
+Ein professioneller KI-Bildgenerator für Endo Health Blogbeiträge. Diese App ermöglicht die Erstellung konsistenter, markengerechter Header-Bilder mittels verschiedener KI-Modelle.
 
-View your app in AI Studio: https://ai.studio/apps/c48e00b4-3081-4256-9c10-b770151052e3
+## ✨ Features
 
-## Run Locally
+- **Multi-Provider Support**: Wähle zwischen Gemini (Google), Pollinations AI und Hugging Face (FLUX).
+- **Brand Consistency**: Integrierte Style-Prompts für einen einheitlichen Look.
+- **Batch Generation**: Generiere Bilder für alle 10 Blog-Titel gleichzeitig.
+- **Download-Funktion**: Speichere generierte Bilder direkt als PNG.
+- **Modern UI**: Clean Design mit Tailwind CSS und Motion (Framer Motion).
 
-**Prerequisites:**  Node.js
+## 🚀 Lokale Entwicklung
 
+1.  **Repository klonen:**
+    ```bash
+    git clone https://github.com/Tem-47/endo-health-ai-image-generator.git
+    cd endo-health-ai-image-generator
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2.  **Abhängigkeiten installieren:**
+    ```bash
+    npm install
+    ```
+
+3.  **Umgebungsvariablen konfigurieren:**
+    Erstelle eine `.env.local` Datei (basierend auf `.env.example`):
+    ```env
+    GEMINI_API_KEY=dein_key
+    HUGGINGFACE_API_KEY=dein_hf_token
+    POLLINATIONS_API_KEY=dein_pollinations_key (optional)
+    ```
+
+4.  **App starten:**
+    ```bash
+    npm run dev
+    ```
+    Öffne [http://localhost:3000](http://localhost:3000).
+
+## 🌐 Deployment auf Vercel
+
+Dieses Projekt ist für [Vercel](https://vercel.com) optimiert.
+
+1.  Push deinen Code auf GitHub.
+2.  Importiere das Repository in Vercel.
+3.  Füge folgende **Environment Variables** in den Vercel-Projekteinstellungen hinzu:
+    - `GEMINI_API_KEY`
+    - `HUGGINGFACE_API_KEY`
+    - `POLLINATIONS_API_KEY`
+4.  Klicke auf **Deploy**.
+
+## 📖 Dokumentation
+Weitere Details zum internen Workflow findest du in der [WORKFLOW.md](WORKFLOW.md).
+
