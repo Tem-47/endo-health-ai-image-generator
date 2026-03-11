@@ -1,0 +1,5 @@
+{
+  "name": "Endo Health AI Image Generator",
+  "description": "A tool to automatically generate consistent, brand-aligned header images for Endo Health blog posts using AI.",
+  "requestFramePermissions": []
+}
