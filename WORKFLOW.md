@@ -76,9 +76,14 @@ HUGGINGFACE_API_KEY=dein_hf_token     # Von https://huggingface.co/settings/toke
 # Pollinations braucht keinen Key!
 ```
 
-## Lokales Starten
-
 ```bash
 npm install
 npm run dev        # → http://localhost:3000
 ```
+
+## Deployment (Vercel)
+
+1. Repo mit Vercel verbinden.
+2. Umgebungsvariablen (`GEMINI_API_KEY`, `HUGGINGFACE_API_KEY`, `POLLINATIONS_API_KEY`) setzen.
+3. Deploy!
+
