@@ -1,6 +1,6 @@
 # Bewerbung als AI-Solutions Engineer – Technical Challenge Report
 
-**Von:** [Dein Name]
+**Von:** Taoufiq EL Maazouzi
 **Projekt:** Endo Health AI Image Generator
 **GitHub Repo:** [https://github.com/Tem-47/endo-health-ai-image-generator](https://github.com/Tem-47/endo-health-ai-image-generator)
 **Live Demo:** [https://endo-health-ai-image-generator.vercel.app/](https://endo-health-ai-image-generator.vercel.app/)
@@ -45,4 +45,4 @@ Ich freue mich darauf, meine Begeisterung für AI-Workflows bald persönlich bei
 
 Beste Grüße,
 
-[Dein Name]
+Taoufiq EL Maazouzi
